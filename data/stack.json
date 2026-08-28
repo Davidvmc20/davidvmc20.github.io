@@ -1,0 +1,17 @@
+{
+  "_comment": "since = primer ano de uso profesional. Los anos se calculan solos. Orden = como se pintan las barras.",
+  "items": [
+    { "label": "SQL (HANA / SQL Server)", "cat": "data",  "since": 2019 },
+    { "label": "Windows Server / AD",     "cat": "infra", "since": 2020 },
+    { "label": "SAP Business One / HANA", "cat": "sap",   "since": 2021 },
+    { "label": "Service Layer / OData",   "cat": "sap",   "since": 2021 },
+    { "label": "Crystal Reports",         "cat": "sap",   "since": 2021 },
+    { "label": "Python",                  "cat": "dev",   "since": 2021 },
+    { "label": "C# / .NET",               "cat": "dev",   "since": 2021 },
+    { "label": "Power BI / DAX",          "cat": "data",  "since": 2022 },
+    { "label": "VMware ESXi",             "cat": "infra", "since": 2022 },
+    { "label": "Git / DevOps",            "cat": "dev",   "since": 2022 },
+    { "label": "Linux / MariaDB",         "cat": "infra", "since": 2023 },
+    { "label": "Tableau",                 "cat": "data",  "since": 2024 }
+  ]
+}

@@ -1,987 +1,535 @@
 <!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang="en">
-    
-    <head>
-        <meta charset=utf-8>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>David Morales</title>
-        <!-- Load Roboto font -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <!-- Load css styles -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
-        <!--[if IE 7]>
-            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-        <![endif]-->
-        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
-        <!-- Fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
-        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-    </head>
-    
-    <body>
-        <div class="navbar">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a href="#" class="brand">
-                      
-                        <!-- This is website logo -->
-                    </a>
-                    <!-- Navigation button, visible on small resolution -->
-                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <i class="icon-menu"></i>
-                    </button>
-                    <!-- Main navigation -->
-                    <div class="nav-collapse collapse pull-right">
-                        <ul class="nav" id="top-navigation">
-                            <li class="active"><a href="#home">Inicio</a></li>
-                            <li><a href="#service">Servicios</a></li>
-                            <li><a href="#portfolio">Contenido</a></li>
-                            <li><a href="#about">Acerca de</a></li>
-                            <li><a href="#clients">Clientes</a></li>
-                            <li><a href="#price">Precio</a></li>
-                            <li><a href="#contact">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <!-- End main navigation -->
-                </div>
-            </div>
-        </div>
-        <!-- Start home section -->
-        <div id="home">
-            <!-- Start cSlider -->
-            <div id="da-slider" class="da-slider">
-                <div class="triangle"></div>
-                <!-- mask elemet use for masking background image -->
-                <div class="mask"></div>
-                <!-- All slides centred in container element -->
-                <div class="container">
-                    <!-- Start first slide -->
-                    <div class="da-slide">
-                        <h2 class="fittext2">Bienvenidos a la página de:</h2>
-                        <h4>David Morales</h4>
-                        <p>Ing. David Vladimir Morales Cordova<br>
-                            San Pedro Sula, Honduras<br>
-                            Telefono: +504 9584-4507<br>Correo: dvmcordova@gmail.com</p>
-                        <a href="#" class="da-link button">Más...</a>
-                        <div class="da-img">
-                            <img src="images/Slider01.png" alt="image01" width="320">
-                        </div>
-                    </div>
-                    <!-- End first slide -->
-                    <!-- Start second slide -->
-                    <div class="da-slide">
-                        <h2>Ing. En Informática</h2>
-                        <h4>Unah-vs</h4>
-                        <p>Graduado de la Carrera Informática Administrativa en el año 2019.
-                            Graduado con honores de la Universidad Nacional Autónoma de Honduras en el Valle de Sula,
-                            con los mas altos reconocimientos que esta Universidad ofrece: <strong>Cum Laude.</strong></p>
-                        <a href="#" class="da-link button">Más...</a>
-                        <div class="da-img">
-                            <img src="images/Slider02.png" width="160" alt="image02">
-                        </div>
-                    </div>
-                    <!-- End second slide -->
-                    <!-- Start third slide -->
-                    <div class="da-slide">
-                        <h2>Con experiencia en: </h2>
-                        <h4></h4>
-                        <p>Redes, Programación, Bases de Datos, Telecomunicaciones, Software Libre, Distribuciones Linux, Edición 
-                            de imágenes y vídeos, Paquete de Ofimática, Reparaciones Preventivas y Correctivas de Ordenadores, etc.</p>
-                        <a href="#" class="da-link button">Más...</a>
-                        <div class="da-img">
-                            <img src="images/Slider03.png" width="320" alt="image03">
-                        </div>
-                    </div>
-                    <!-- Start third slide -->
-                    <!-- Start cSlide navigation arrows -->
-                    <div class="da-arrows">
-                        <span class="da-arrows-prev"></span>
-                        <span class="da-arrows-next"></span>
-                    </div>
-                    <!-- End cSlide navigation arrows -->
-                </div>
-            </div>
-        </div>
-        <!-- End home section -->
-        <!-- Service section start -->
-        <div class="section primary-section" id="service">
-            <div class="container">
-                <!-- Start title section -->
-                <div class="title">
-                    <h1>¿En que podemos ayudarte?</h1>
-                    <!-- Section's title goes here -->
-                    <p>Tenga la confianza de preguntar por nuestros servicios, ¡será un placer atenderle!</p>
-                    <!--Simple description for section goes here. -->
-                </div>
-                <div class="row-fluid">
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service1.png" alt="service 1">
-                            </div>
-                            <h3>Programación</h3>
-                            <p>Creación de software de todo tipo.</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service2.png" alt="service 2" />
-                            </div>
-                            <h3>Bases de Datos</h3>
-                            <p>Bases de datos a nivel empresarial o personal.</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service3.png" alt="service 3">
-                            </div>
-                            <h3>Redes</h3>
-                            <p>Creación y actualización de Redes Informáticas.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service section end -->
-        <!-- Portfolio section start -->
-        <div class="section secondary-section " id="portfolio">
-            <div class="triangle"></div>
-            <div class="container">
-                <div class=" title">
-                    <h1>¿Ha visto nuestros trabajos?</h1>
-                    <p>¡Eche un pequeño vistazo a nuestros otros proyectos!</p>
-                </div>
-            <!--    <ul class="nav nav-pills">
-                    <li class="filter" data-filter="all">
-                        <a href="#noAction">All</a>
-                    </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">Web</a>
-                    </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">Photo</a>
-                    </li>
-                    <li class="filter" data-filter="identity">
-                        <a href="#noAction">Identity</a>
-                    </li>
-                </ul>-->
-                <!-- Start details for portfolio project 1 -->
-                <div id="single-project">
-                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio01.png" alt="project 1" />
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Sweet Factory</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Cliente</span>Sweet Factory Co.</div>
-                                    <div>
-                                        <span>Fecha</span>Julio 2017</div>
-                                    <div>
-                                        <span>Software</span>HTML5, CSS5, JavaScript</div>
-                                    <div>
-                                        <span>Link</span><a href="http://sweetfactoryhn.000webhostapp.com/"><p style="color:#FFFFFF";>SweetFactory.com</a></div>
-                                </div>
-                                <p>Sweet Factory Co. es una empresa creada a la producción y distribución de todo tipo de productos alimenticios derivados del pan, son los más recomendados en la zona norte de Honduras, con cientos de  clientes diarios y muchos proveedores.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 1 -->
-                    <!-- Start details for portfolio project 2 -->
-                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio02.png" alt="project 2">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Registro de Actividad estudiantil</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Cliente</span>UNAH VS.</div>
-                                    <div>
-                                        <span>Fecha</span>Septiembre 2018</div>
-                                    <div>
-                                        <span>Software</span>C#, SQL SERVER</div>
-                                    
-                                </div>
-                                <p>Aplicación para ayudar a los estudiantes de la carrera de Informática.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 2 -->
-                    <!-- Start details for portfolio project 3 -->
-                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio03.png" alt="project 3">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Cliente</span>UNAH VS.</div>
-                                    <div>
-                                        <span>Fecha</span>Septiembre 2018</div>
-                                    <div>
-                                        <span>Software</span>C#, SQL SERVER</div>
-                                    
-                                </div>
-                                <p>Aplicación</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 3 -->
-                    <!-- Start details for portfolio project 4 -->
-            <!--        <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio04.png" alt="project 4">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Project for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 4 -->
-                    <!-- Start details for portfolio project 5 -->
-                 <!--   <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio05.png" alt="project 5">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 5 -->
-                    <!-- Start details for portfolio project 6 -->
-               <!--     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio06.png" alt="project 6">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 6 -->
-                    <!-- Start details for portfolio project 7 -->
-            <!--        <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio07.png" alt="project 7">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 7 -->
-                    <!-- Start details for portfolio project 8 -->
-              <!--      <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio08.png" alt="project 8">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 8 -->
-                    <!-- Start details for portfolio project 9 -->
-              <!--      <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio09.png" alt="project 9">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info">
-                                    <div>
-                                        <span>Client</span>Some Client Name</div>
-                                    <div>
-                                        <span>Date</span>July 2013</div>
-                                    <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
-                                    <div>
-                                        <span>Link</span>http://examplecomp.com</div>
-                                </div>
-                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
-                            </div>
-                        </div>
-                    </div>-->
-                    <!-- End details for portfolio project 9 -->
-                    <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio01.png" alt="project 1">
-                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Sweet Factory</h3>
-                                <p>Software a medida.</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio02.png" alt="project 2">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Registro de actividad Estudiantil</h3>
-                                <p>Software a medida.</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix identity">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio03.png" alt="project 3">
-                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Taxi Express</h3>
-                                <p>Aplicación movil</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-               <!--         <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio04.png" alt="project 4">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio05.png" alt="project 5">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix identity">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio06.png" alt="project 6">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix web">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio07.png" alt="project 7" />
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio08.png" alt="project 8">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix identity">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio09.png" alt="project 9">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio section end -->
-        <!-- About us section start -->
-        <div class="section primary-section" id="about">
-            <div class="triangle"></div>
-            <div class="container">
-                <div class="title">
-                    <h1>¿Quienes Somos?</h1>
-                    <p>Nuestro Personal.</p>
-                </div>
-                <div class="row-fluid team">
-                    <div class="span4" id="first-person">
-                        <div class="thumbnail">
-                            <img src="images/Team1.png" alt="team 1">
-                            <h3>Vanessa García</h3>
-                            <ul class="social">
-                                <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="mask">
-                                <h2>Secretaria</h2>
-                                <p>Encargada de atender a los clientes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span4" id="second-person">
-                        <div class="thumbnail">
-                            <img src="images/Slider01.png" alt="team 1">
-                            <h3>David Morales</h3>
-                            <ul class="social">
-                                <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="mask">
-                                <h2>Gerente General</h2>
-                                <p>Encargado de toda la logística y producción.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span4" id="third-person">
-                        <div class="thumbnail">
-                            <img src="images/Team1.png" alt="team 1">
-                            <h3>Alicia Reyes</h3>
-                            <ul class="social">
-                                <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="mask">
-                                <h2>Secretaria</h2>
-                                <p>Encargada de atender a los clientes.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-text centered">
-                    <h3>Acerca de Nosotros</h3>
-                    <p>Ofrecemos a nuestros clientes una experiencia positiva y única. Nuestra amplia variedad de productos está pensada para que pueda encontrar justo lo que busca. Nos caracterizamos por realizar todos nuestros productos de forma profesional desde hace muchos años en esta pequeña empresa familiar.<br><br>
+<title>David Morales</title>
+<meta name="description" content="David Morales, Application Support &amp; Data Analyst in San Pedro Sula, Honduras. SAP Business One on HANA, SQL, Power BI and Python.">
+<meta name="author" content="David Vladimir Morales Córdova">
+<meta name="theme-color" content="#0d1117">
+<link rel="canonical" href="https://davidvmc20.github.io/">
 
-Nuestro equipo de trabajo está conformado por expertos en el sector, quienes hacen su trabajo siguiendo estándares de alta calidad y siempre atentos a la evolución natural del mercado y gracias a la unidad familiar, introduciendo en el mercado una amplia gama de productos novedosos.<br><br>
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://davidvmc20.github.io/">
+<meta property="og:title" content="David Morales — Application Support &amp; Data Analyst">
+<meta property="og:description" content="SAP Business One on HANA, SQL, Power BI and Python. San Pedro Sula, Honduras.">
+<meta property="og:image" content="https://davidvmc20.github.io/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_HN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="David Morales — Application Support &amp; Data Analyst">
+<meta name="twitter:description" content="SAP Business One on HANA, SQL, Power BI and Python. San Pedro Sula, Honduras.">
+<meta name="twitter:image" content="https://davidvmc20.github.io/assets/img/og-image.png">
 
-Realizamos trabajos tanto a particulares como a empresas grandes y pequeñas en San Pedro Sula y sus alrededores. No dude en contactar con nosotros.
- </p>
-                </div>
-                <h3>Destrezas</h3>
-                <div class="row-fluid">
-                    <div class="span6">
-                        <ul class="skills">
-                            <li>
-                                <span class="bar" data-width="80%"></span>
-                                <h3>Diseño Gráfico</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="100%"></span>
-                                <h3>Programación</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="90%"></span>
-                                <h3>Bases de datos</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="85%"></span>
-                                <h3>Redes </h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="span6">
-                        <div class="highlighted-box center">
-                            <h1>Lo estamos esperando</h1>
-                            <p>Nuestros servicios y programas personalizados fueron desarrollados para ayudar a nuestros clientes nuevos y existentes a hacer crecer sus negocios.</p>
-                            <button class="button button-sp">Únase</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About us section end -->
-        <div class="section secondary-section">
-            <div class="triangle"></div>
-            <div class="container centered">
-                <p class="large-text">La elegancia no es la abundancia de la simplicidad. Es la ausencia de complejidad..</p>
-                <a href="#" class="button">¡Compre ahora!</a>
-            </div>
-        </div>
-        <!-- Client section start -->
-        <!-- Client section start -->
-        <div id="clients">
-            <div class="section primary-section">
-                <div class="triangle"></div>
-                <div class="container">
-                    <div class="title">
-                        <h1>¿Que dicen nuestros clientes?</h1>
-                        <p>La confianza es primero!, vea lo que piensan nuestros clientes de nosotros!.</p>
-                    </div>
-                    <div class="row">
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Son los mejores me han diseñado la mejor página web que podía haber pedido, recomendados 100%"</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client1.png" class="centered" alt="client 1">
-                                    <strong>Elsa Flores
-                                        <small>Cliente</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Son muy buenos para desarrollar aplicaciones tanto moviles como para escritorio, ahora los he recomendado con todos mis conocidos y estoy muy satisfecho."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client2.png" class="centered" alt="client 2">
-                                    <strong>Antonio Garcia
-                                        <small>Cliente</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Me desarrollaron un sistema completo y me corrigieron el que tenía anteriormente, son los mejores"</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>Damaris Hernandez
-                                        <small>Cliente</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">
-                        "La base de un buen trabajo es siempre tener la confianza de nuestros clientes"
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="section third-section">
-            <div class="container centered">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Nuestros Clientes</h3>
-                        </div>
-                     <!--   <ul class="client-nav pull-right">
-                            <li id="client-prev"></li>
-                            <li id="client-next"></li>
-                        </ul>-->
-                    </div>
-                    <ul class="row client-slider" id="clint-slider">
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
-                            </a>
-                        </li>
-                        <!--<li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
-                            </a>
-                        </li>-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Price section start -->
-        <div id="price" class="section secondary-section">
-            <div class="container">
-                <div class="title">
-                    <h1>Productos</h1>
-                    <p>Consulte nuestra amplia variedad de productos.</p>
-                </div>
-                <div class="price-table row-fluid">
-                    <div class="span4 price-column">
-                        <h3>Basico</h3>
-                        <ul class="list">
-                            <li class="price">$19,99</li>
-                            <li><strong>Diseño web</strong></li>
-                            <li><strong>Soporte</strong> 24/7</li>
-                            <li><strong>5 GB</strong> de Almacenamiento</li>
-                        </ul>
-                        <a href="#" class="button button-ps">COMPRAR</a>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>Pro</h3>
-                        <ul class="list">
-                            <li class="price">$39,99</li>
-                            <li><strong>Bases de datos</strong></li>
-                             <li><strong>Soporte</strong> 24/7</li>
-                          <li><strong>25 GB</strong> de Almacenamiento</li>
-                        </ul>
-                        <a href="#" class="button button-ps">COMPRAR</a>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>Premium</h3>
-                        <ul class="list">
-                            <li class="price">$79,99</li>
-                            <li><strong>Programación</strong></li>
-                            <li><strong>Soporte</strong> 24/7</li>
-                            <li><strong>50 GB</strong> de Almacenamiento</li>
-                        </ul>
-                        <a href="#" class="button button-ps">COMPRAR</a>
-                    </div>
-                </div>
-                <div class="centered">
-                    <p class="price-text">También ofrecemos planes personalizados, contáctenos para mas información.</p>
-                    <a href="#contact" class="button">Contactar</a>
-                </div>
-            </div>
-        </div>
-        <!-- Price section end -->
-        <!-- Newsletter section start -->
-        <div class="section third-section">
-            <div class="container newsletter">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Novedades</h3>
-                        </div>
-                    </div>
-                </div>
-                <div id="success-subscribe" class="alert alert-success invisible">
-                    <strong>Bien hecho!</strong>Te has suscrito a nuestro portal.</div>
-                <div class="row-fluid">
-                    <div class="span5">
-                        <p>Suscribete para recibir novedades sobre nuevos productos o servicios!</p>
-                    </div>
-                    <div class="span7">
-                        <form class="inline-form">
-                            <input type="email" name="email" id="nlmail" class="span8" placeholder="Escriba su correo" required />
-                            <button id="subscribe" class="button button-sp">Subscribir</button>
-                        </form>
-                        <div id="err-subscribe" class="error centered">Porfavor ingrese un correo válido</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Newsletter section end -->
-        <!-- Contact section start -->
-        <div id="contact" class="contact">
-            <div class="section secondary-section">
-                <div class="container">
-                    <div class="title">
-                        <h1>Contáctenos</h1>
-                        <p>Esta es nuestra ubicación.</p>
-                    </div>
-                </div>
-                <div class="map-wrapper">
-                    <div class="map-canvas" id="map-canvas">Cargando mapa...</div>
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span5 contact-form centered">
-                                <h3>Comentarios</h3>
-                                <div id="successSend" class="alert alert-success invisible">
-                                    <strong>Bien hecho!</strong>Su mensaje ha sido enviado</div>
-                                <div id="errorSend" class="alert alert-error invisible">Ha ocurrido un error.</div>
-                                <form id="contact-form" action="php/mail.php">
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="text" id="name" name="name" placeholder="* Nombre..." />
-                                            <div class="error left-align" id="err-name">Porfavor ingrese su nombre.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="email" name="email" id="email" placeholder="* Correo..." />
-                                            <div class="error left-align" id="err-email">Porfavor ingrese un correo válido.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comentario..."></textarea>
-                                            <div class="error left-align" id="err-comment">Porfavor ingrese su comentario.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <button id="send-mail" class="message-btn">Enviar</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="span9 center contact-info">
-                        <p>San Pedro Sula, Honduras, CA</p>
-                        <p class="info-mail">dvmcordova@gmail.com</p>
-                        <p>+504 9584 4507</p>
-                       
-                        <div class="title">
-                            <h3>Nuestras redes sociales</h3>
-                        </div>
-                    </div>
-                    <div class="row-fluid centered">
-                        <ul class="social">
-                            <li>
-                                <a href="" title="Facebook"><i class="fa fa-facebook"></i>
-                                    <span class="icon-facebook-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-twitter-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-linkedin-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-pinterest-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-dribbble-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-gplus-circled"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- Contador de visitas 
-<center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Visitas">
-    <img  src="http://www.websmultimedia.com/contador-de-visitas.php?id=301915"><br/><strong><a>Visitas</a></strong></a><br></center>
-    <!-- Fin Contador de visitas -->
-        
-        <!-- Contact section edn -->
-        <!-- Footer section start -->
- 
-        <div class="footer">
-            <p>Todos los derechos Reservados 2019 - <span id="copyright"><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span>
-                &copy;</p>
-          
-        </div>
-    
-        <!-- Footer section end -->
-        <!-- ScrollUp button start -->
-        <div class="scrollup">
-            <a href="#">
-                <i class="icon-up-open"></i>
-            </a>
-        </div>
-        <!-- ScrollUp button end -->
-        <!-- Include javascript -->
-        <script src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/modernizr.custom.js"></script>
-        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-        <script type="text/javascript" src="js/jquery.cslider.js"></script>
-        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-        <script type="text/javascript" src="js/jquery.inview.js"></script>
-        <!-- Load google maps api and call initializeMap function defined in app.js -->
-        <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-        <!-- css3-mediaqueries.js for IE8 or older -->
-        <!--[if lt IE 9]>
-            <script src="js/respond.min.js"></script>
-        <![endif]-->
-        <script type="text/javascript" src="js/app.js"></script>
-    </body>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "David Vladimir Morales Córdova",
+  "alternateName": "David Morales",
+  "jobTitle": "Application Support & Data Analyst",
+  "url": "https://davidvmc20.github.io/",
+  "email": "mailto:dvmcordova@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Pedro Sula",
+    "addressCountry": "HN"
+  },
+  "worksFor": { "@type": "Organization", "name": "Oster Línea Blanca · Household Solutions" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Universidad Nacional Autónoma de Honduras (UNAH-VS)" },
+    { "@type": "CollegeOrUniversity", "name": "Universidad Internacional de Valencia (VIU)" }
+  ],
+  "knowsAbout": ["SAP Business One", "SAP HANA", "SQL", "Power BI", "DAX", "Python", "Business Intelligence", "ETL"],
+  "knowsLanguage": ["es", "en"],
+  "sameAs": ["https://github.com/davidvmc20"]
+}
+</script>
+</head>
+
+<body>
+
+<a class="skip" href="#about"><span lang="es">Saltar al contenido</span><span lang="en">Skip to content</span></a>
+
+<!-- ====================== NAV ====================== -->
+<header class="topbar">
+  <div class="shell topbar-inner">
+    <a class="brand" href="#top">david<span class="sig">@</span>morales:~$</a>
+
+    <nav class="nav" id="nav" aria-label="Sections">
+      <a href="#about"><span class="n">01.</span>about</a>
+      <a href="#experience"><span class="n">02.</span>experience</a>
+      <a href="#education"><span class="n">03.</span>education</a>
+      <a href="#skills"><span class="n">04.</span>skills</a>
+      <a href="#stack"><span class="n">05.</span>stack</a>
+      <a href="#learning"><span class="n">06.</span>learning</a>
+      <a href="#projects"><span class="n">07.</span>projects</a>
+      <a href="#contact"><span class="n">08.</span>contact</a>
+    </nav>
+
+    <div class="toolbar">
+      <button class="tool" id="langBtn" type="button" aria-label="Cambiar a español">ES</button>
+      <button class="tool" id="themeBtn" type="button" aria-label="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ====================== HERO ====================== -->
+<section class="hero shell" aria-labelledby="hero-h">
+  <p class="cmd">whoami</p>
+
+  <div class="hero-grid">
+    <div>
+      <h1 id="hero-h">David Vladimir Morales Córdova<span class="cursor" aria-hidden="true"></span></h1>
+      <p class="role">
+        <span lang="es">Científico de datos · ERP y datos</span>
+        <span lang="en">Data Scientist · ERP and data</span>
+      </p>
+
+      <ul class="meta">
+        <li><b lang="es">ubicación</b><b lang="en">location</b> San Pedro Sula, Honduras</li>
+        <li><b>email</b> <a href="mailto:dvmcordova@gmail.com">dvmcordova@gmail.com</a></li>
+        <!-- <li><b lang="es">teléfono</b><b lang="en">phone</b> <a href="tel:+50495844507">+504 9584-4507</a></li> -->
+        <li><b>github</b> <a href="https://github.com/davidvmc20" rel="noopener">github.com/davidvmc20</a></li>
+        <!-- TODO: reemplazar USUARIO por el handle real de LinkedIn -->
+        <li><b>linkedin</b> <a href="#" rel="noopener">David Morales</a></li>
+      </ul>
+
+      <div class="badge-row">
+        <span class="status">
+          <span class="dot" aria-hidden="true"></span>
+          <span lang="es">Abierto a oportunidades — remoto o reubicación</span>
+          <span lang="en">Open to opportunities — remote or relocation</span>
+        </span>
+      </div>
+    </div>
+
+    <div>
+      <img class="avatar" src="assets/img/perfil.png" alt="David Morales" id="avatar" width="116" height="116">
+      <div class="avatar-fb" id="avatarFb" hidden aria-hidden="true">DM</div>
+    </div>
+  </div>
+
+  <!-- Terminal interactiva: puramente aditiva, si el JS falla la pagina sigue completa -->
+  <div class="term" id="term" hidden>
+    <div class="term-bar">
+      <i></i><i></i><i></i><span>bash — david@morales</span>
+    </div>
+    <div class="term-body" id="termBody">
+      <p class="term-out"><span lang="es">Escriba <span class="k">help</span> para ver los comandos disponibles.</span><span lang="en">Type <span class="k">help</span> to list the available commands.</span></p>
+      <label class="term-line" for="termIn">
+        <input class="term-in" id="termIn" type="text" autocomplete="off" spellcheck="false"
+               aria-label="Terminal" placeholder="help">
+      </label>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 01 ABOUT ====================== -->
+<section class="section shell" id="about" aria-labelledby="about-h">
+  <p class="cmd">cat about.md</p>
+  <h2 class="sec-title" id="about-h"><span class="idx">01.</span> about</h2>
+
+  <div class="prose">
+    <div lang="es">
+      <p>Trabajo en el punto donde el sistema tiene que funcionar <strong>y</strong> el número tiene que cuadrar. Administro <strong>SAP Business One sobre HANA</strong> para una operación de línea blanca: usuarios, licencias, autorizaciones y el flujo documental de compras y ventas.</p>
+      <p>Del otro lado escribo la reportería SQL que alimenta las decisiones de finanzas y comercial, y construyo los tableros de Power BI que llegan a la mesa directiva. Cuando falta la pieza intermedia, la programo: integraciones vía <code>Service Layer</code> y pipelines en Python.</p>
+      <p>Llevo <span data-years>7</span> años en TI, con base en San Pedro Sula. Mi criterio de trabajo es simple: el dato que nadie audita no sirve, y el reporte que nadie usa tampoco. Prefiero dejar la vista gobernada en el data warehouse antes que producir un Excel más.</p>
+    </div>
+    <div lang="en">
+      <p>I work where the system has to run <strong>and</strong> the number has to add up. I administer <strong>SAP Business One on HANA</strong> for a home-appliance operation: users, licenses, authorizations and the purchasing and sales document flow.</p>
+      <p>On the other side I write the SQL reporting that feeds finance and commercial decisions, and build the Power BI dashboards that reach the executive table. When the middle piece is missing, I build it: <code>Service Layer</code> integrations and Python pipelines.</p>
+      <p>I have spent <span data-years>7</span> years in IT, based in San Pedro Sula. My working principle is simple: data nobody audits is worthless, and a report nobody uses is too. I would rather leave a governed view in the data warehouse than ship one more spreadsheet.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 02 EXPERIENCE ====================== -->
+<section class="section shell" id="experience" aria-labelledby="exp-h">
+  <p class="cmd">git log --career</p>
+  <h2 class="sec-title" id="exp-h"><span class="idx">02.</span> experience</h2>
+
+  <article class="job">
+    <div class="job-head">
+      <h3>Application Support &amp; Data Analyst</h3>
+      <span class="when" lang="es">oct. 2024 — presente</span>
+      <span class="when" lang="en">Oct 2024 — present</span>
+    </div>
+    <p class="org">Oster Línea Blanca · Household Solutions — San Pedro Sula, HN</p>
+    <p class="hash">e4c81a</p>
+    <ul lang="es">
+      <li>Administro SAP Business One sobre HANA en producción: usuarios, licencias, autorizaciones y parametrización de compras y ventas.</li>
+      <li>Escribo la reportería SQL y los procedimientos SQLScript que usan finanzas, compras y ventas para cerrar el mes.</li>
+      <li>Construyo los tableros ejecutivos de Power BI sobre un data warehouse propio, con refresco programado vía gateway.</li>
+      <li>Desarrollo integraciones con Service Layer y automatizaciones en Python que conectan sistemas que no se hablaban.</li>
+      <li>Sostengo el helpdesk y la infraestructura asociada: continuidad del servicio, respaldos y atención de incidentes.</li>
+    </ul>
+    <ul lang="en">
+      <li>Administer SAP Business One on HANA in production: users, licenses, authorizations, and purchasing/sales configuration.</li>
+      <li>Write the SQL reporting and SQLScript procedures finance, purchasing and sales rely on to close the month.</li>
+      <li>Build the executive Power BI dashboards on an in-house data warehouse, with scheduled gateway refresh.</li>
+      <li>Develop Service Layer integrations and Python automations connecting systems that previously did not talk.</li>
+      <li>Keep the helpdesk and supporting infrastructure running: service continuity, backups and incident response.</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">SAP Business One</span><span class="tag">SAP HANA</span><span class="tag">SQLScript</span>
+      <span class="tag">Power BI</span><span class="tag">Python</span><span class="tag">Service Layer</span>
+    </div>
+  </article>
+
+  <article class="job">
+    <div class="job-head">
+      <h3 lang="es">Instructor de cursos técnicos</h3>
+      <h3 lang="en">Technical course instructor</h3>
+      <span class="when" lang="es">2023 — presente</span>
+      <span class="when" lang="en">2023 — present</span>
+    </div>
+    <p class="org" lang="es">Udemy — remoto, en paralelo</p>
+    <p class="org" lang="en">Udemy — remote, in parallel</p>
+    <p class="hash">b7d203</p>
+    <ul lang="es">
+      <li>Publico cursos sobre bases de datos, desarrollo y herramientas de análisis para público hispanohablante.</li>
+      <li>Diseño el material, los ejercicios y los conjuntos de datos de práctica de cada curso.</li>
+    </ul>
+    <ul lang="en">
+      <li>Publish courses on databases, development and analytics tooling for a Spanish-speaking audience.</li>
+      <li>Design the material, exercises and practice datasets for each course.</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Power BI</span>
+    </div>
+  </article>
+
+  <article class="job">
+    <div class="job-head">
+      <h3 lang="es">Consultor independiente de TI</h3>
+      <h3 lang="en">Independent IT consultant</h3>
+      <span class="when" lang="es">2020 — presente</span>
+      <span class="when" lang="en">2020 — present</span>
+    </div>
+    <p class="org" lang="es">PYMEs de la zona norte de Honduras — en paralelo</p>
+    <p class="org" lang="en">SMBs in northern Honduras — in parallel</p>
+    <p class="hash">91f5ce</p>
+    <ul lang="es">
+      <li>Sistemas a medida, bases de datos y reportería para pequeñas y medianas empresas.</li>
+      <li>Soporte, migraciones y puesta en marcha de infraestructura básica de TI.</li>
+    </ul>
+    <ul lang="en">
+      <li>Custom systems, databases and reporting for small and mid-sized companies.</li>
+      <li>Support, migrations and rollout of basic IT infrastructure.</li>
+    </ul>
+    <div class="tags">
+      <span class="tag">C# / .NET</span><span class="tag">SQL Server</span><span class="tag">MariaDB</span>
+    </div>
+  </article>
+
+  <div class="prev-jobs">
+    <h3 lang="es">Experiencia previa</h3>
+    <h3 lang="en">Previous experience</h3>
+    <ul class="prev-list">
+      <li>Grupo Platino <span>2023 — 2024</span></li>
+      <li>Honducafé <span>2022 — 2023</span></li>
+      <li>Grupo IESA <span>2020 — 2021</span></li>
+      <li>Grupo Comidas Especializadas <span>2019 — 2020</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ====================== 03 EDUCATION ====================== -->
+<section class="section shell" id="education" aria-labelledby="edu-h">
+  <p class="cmd">SELECT * FROM education ORDER BY year DESC;</p>
+  <h2 class="sec-title" id="edu-h"><span class="idx">03.</span> education</h2>
+
+  <div class="tablewrap">
+    <table class="sql">
+      <thead>
+        <tr lang="es"><th>grado</th><th>institución</th><th>período</th></tr>
+        <tr lang="en"><th>degree</th><th>institution</th><th>period</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span lang="es">Maestría en Big Data y Ciencia de Datos</span>
+            <span lang="en">MSc in Big Data and Data Science</span>
+          </td>
+          <td data-th="institución">
+            <span lang="es">Universidad Internacional de Valencia (VIU), España</span>
+            <span lang="en">Universidad Internacional de Valencia (VIU), Spain</span>
+          </td>
+          <td data-th="período"><span lang="es">posgrado</span><span lang="en">postgraduate</span></td>
+        </tr>
+        <tr>
+          <td>SAP Certified — C_TB120</td>
+          <td data-th="institución">SAP · SAP Business One</td>
+          <td data-th="período">
+            <span lang="es">2026</span>
+            <span lang="en">2026</span>
+          </td>
+        </tr>
+        <tr>
+          <td><span lang="es">Inglés C1 — avanzado</span><span lang="en">English C1 — advanced</span></td>
+          <td data-th="institución">Instituto San Vicente de Paúl</td>
+          <td data-th="período">2024 — 2025</td>
+        </tr>
+        <tr>
+          <td>
+            <span lang="es">Licenciatura en Informática Administrativa — Cum Laude</span>
+            <span lang="en">BSc in Administrative Informatics — Cum Laude</span>
+          </td>
+          <td data-th="institución">
+            <span lang="es">Universidad Nacional Autónoma de Honduras (UNAH-VS)</span>
+            <span lang="en">Universidad Nacional Autónoma de Honduras (UNAH-VS)</span>
+          </td>
+          <td data-th="período">2014 — 2019</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="rows" lang="es">-- 4 filas</p>
+  <p class="rows" lang="en">-- 4 rows in set</p>
+</section>
+
+<!-- ====================== 04 SKILLS ====================== -->
+<section class="section shell" id="skills" aria-labelledby="skills-h">
+  <p class="cmd">cat skills.json</p>
+  <h2 class="sec-title" id="skills-h"><span class="idx">04.</span> skills</h2>
+
+<pre class="json"><code>{
+  <span class="key">"sap"</span><span class="pun">:</span> <span class="pun">[</span>
+    <span class="str">"SAP Business One 10 on HANA"</span><span class="pun">,</span> <span class="str">"Service Layer / OData"</span><span class="pun">,</span>
+    <span class="str">"SQLScript"</span><span class="pun">,</span> <span class="str">"Transaction Notification"</span><span class="pun">,</span> <span class="str">"UDF / UDT / UDO"</span><span class="pun">,</span>
+    <span class="str">"Crystal Reports"</span><span class="pun">,</span> <span class="str">"Budgets &amp; cost centers"</span><span class="pun">,</span> <span class="str">"License management"</span><span class="pun">,</span>
+    <span class="str">"SAP ECC on Oracle"</span><span class="pun">,</span> <span class="str">"S/4HANA FI"</span>
+  <span class="pun">],</span>
+  <span class="key">"data"</span><span class="pun">:</span> <span class="pun">[</span>
+    <span class="str">"SQL (HANA, SQL Server)"</span><span class="pun">,</span> <span class="str">"Power BI"</span><span class="pun">,</span> <span class="str">"DAX"</span><span class="pun">,</span> <span class="str">"Power Query / M"</span><span class="pun">,</span>
+    <span class="str">"Semantic modeling"</span><span class="pun">,</span> <span class="str">"Data warehouse design"</span><span class="pun">,</span> <span class="str">"ETL in Python"</span><span class="pun">,</span> <span class="str">"Tableau"</span>
+  <span class="pun">],</span>
+  <span class="key">"infra"</span><span class="pun">:</span> <span class="pun">[</span>
+    <span class="str">"VMware ESXi"</span><span class="pun">,</span> <span class="str">"Windows Server"</span><span class="pun">,</span> <span class="str">"Active Directory"</span><span class="pun">,</span> <span class="str">"IIS"</span><span class="pun">,</span>
+    <span class="str">"Debian 12"</span><span class="pun">,</span> <span class="str">"MariaDB"</span><span class="pun">,</span> <span class="str">"Azure DevOps Server"</span><span class="pun">,</span> <span class="str">"osTicket"</span>
+  <span class="pun">],</span>
+  <span class="key">"dev"</span><span class="pun">:</span> <span class="pun">[</span>
+    <span class="str">"Python"</span><span class="pun">,</span> <span class="str">"C# / .NET"</span><span class="pun">,</span> <span class="str">"REST &amp; OData APIs"</span><span class="pun">,</span> <span class="str">"Git"</span><span class="pun">,</span> <span class="str">"Android"</span>
+  <span class="pun">],</span>
+  <span class="key">"methodologies"</span><span class="pun">:</span> <span class="pun">[</span>
+    <span class="str">"Application support"</span><span class="pun">,</span> <span class="str">"Data governance"</span><span class="pun">,</span> <span class="str">"Technical documentation"</span><span class="pun">,</span>
+    <span class="str">"Helpdesk / ITSM"</span><span class="pun">,</span> <span class="str">"Business continuity"</span>
+  <span class="pun">],</span>
+  <span class="key">"languages"</span><span class="pun">:</span> <span class="pun">{</span> <span class="key">"es"</span><span class="pun">:</span> <span class="str">"native"</span><span class="pun">,</span> <span class="key">"en"</span><span class="pun">:</span> <span class="str">"C1"</span> <span class="pun">}</span>
+}</code></pre>
+</section>
+
+<!-- ====================== 05 STACK ====================== -->
+<section class="section shell" id="stack" aria-labelledby="stack-h">
+  <p class="cmd">./stats --render</p>
+  <h2 class="sec-title" id="stack-h"><span class="idx">05.</span> stack</h2>
+
+  <div class="filters" id="chartFilters" role="group" aria-label="Filter by area">
+    <button class="filter" type="button" data-cat="all" aria-pressed="true">all</button>
+    <button class="filter" type="button" data-cat="sap" aria-pressed="false">sap</button>
+    <button class="filter" type="button" data-cat="data" aria-pressed="false">data</button>
+    <button class="filter" type="button" data-cat="infra" aria-pressed="false">infra</button>
+    <button class="filter" type="button" data-cat="dev" aria-pressed="false">dev</button>
+  </div>
+
+  <div class="chartwrap" id="chartWrap">
+    <!-- Relleno sin JS: lista legible con los mismos datos -->
+    <ul class="prev-list" id="chartFallback">
+      <li>SQL (HANA / SQL Server) <span>7</span></li>
+      <li>Windows Server / AD <span>6</span></li>
+      <li>SAP Business One / HANA <span>5</span></li>
+      <li>Service Layer / OData <span>5</span></li>
+      <li>Crystal Reports <span>5</span></li>
+      <li>Python <span>5</span></li>
+      <li>C# / .NET <span>5</span></li>
+      <li>Power BI / DAX <span>4</span></li>
+      <li>VMware ESXi <span>4</span></li>
+      <li>Git / DevOps <span>4</span></li>
+      <li>Linux / MariaDB <span>3</span></li>
+      <li>Tableau <span>2</span></li>
+    </ul>
+  </div>
+
+  <p class="legend">
+    <span><i class="l-sap"></i>sap</span>
+    <span><i class="l-data"></i>data</span>
+    <span><i class="l-infra"></i>infra</span>
+    <span><i class="l-dev"></i>dev</span>
+  </p>
+  <p class="note" lang="es"># años de uso profesional, a <span data-asof>agosto de 2026</span></p>
+  <p class="note" lang="en"># years of professional use, as of <span data-asof>August 2026</span></p>
+</section>
+
+<!-- ====================== 06 LEARNING ====================== -->
+<section class="section shell" id="learning" aria-labelledby="learning-h">
+  <p class="cmd">./learning --summary</p>
+  <h2 class="sec-title" id="learning-h"><span class="idx">06.</span> learning</h2>
+
+  <div class="tiles" id="tiles">
+    <div class="tile"><b data-years>7</b><span lang="es">años en TI</span><span lang="en">years in IT</span></div>
+    <div class="tile"><b>28</b><span lang="es">tecnologías en uso</span><span lang="en">technologies in use</span></div>
+    <div class="tile"><b>1</b><span lang="es">certificación SAP vigente</span><span lang="en">active SAP certification</span></div>
+    <div class="tile"><b>C1</b><span lang="es">nivel de inglés</span><span lang="en">English level</span></div>
+    <div class="tile"><b>2023</b><span lang="es">instructor desde</span><span lang="en">instructor since</span></div>
+  </div>
+</section>
+
+<!-- ====================== 07 PROJECTS ====================== -->
+<section class="section shell" id="projects" aria-labelledby="proj-h">
+  <p class="cmd">ls -la ./projects</p>
+  <h2 class="sec-title" id="proj-h"><span class="idx">07.</span> projects</h2>
+
+  <div class="projects">
+    <article class="card">
+      <p class="kind" lang="es">business intelligence</p>
+      <p class="kind" lang="en">business intelligence</p>
+      <h3 lang="es">Tablero ejecutivo para dirección</h3>
+      <h3 lang="en">Executive dashboard</h3>
+      <p lang="es">Facturación, vendedores, clientes y categorías con crecimiento interanual, cumplimiento de meta, margen y semáforos. Sustituyó reportes en Excel por vistas gobernadas en el data warehouse.</p>
+      <p lang="en">Billing, sales reps, customers and categories with year-over-year growth, target attainment, margin and status indicators. Replaced Excel reports with governed data-warehouse views.</p>
+      <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span><span class="tag">SQL Server</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+
+    <article class="card">
+      <p class="kind">integration</p>
+      <h3 lang="es">Extracción SAP → Power BI</h3>
+      <h3 lang="en">SAP → Power BI extraction</h3>
+      <p lang="es">Servicio en Python que consume el Service Layer de SAP B1 por OData con paginación y alimenta el modelo de datos, con refresco programado mediante gateway.</p>
+      <p lang="en">Python service that consumes the SAP B1 Service Layer over OData with pagination and feeds the data model, refreshed on schedule through the gateway.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">OData</span><span class="tag">Service Layer</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+
+    <article class="card">
+      <p class="kind">finance</p>
+      <h3 lang="es">Antigüedad de saldos CxP y CxC</h3>
+      <h3 lang="en">AP / AR aging</h3>
+      <p lang="es">Procedimiento almacenado en HANA que arma la antigüedad por proveedor y cliente desde el mayor y las reconciliaciones, con tramos configurables y fecha de corte parametrizada.</p>
+      <p lang="en">HANA stored procedure that builds aging by vendor and customer from the general ledger and reconciliations, with configurable buckets and a parameterized cut-off date.</p>
+      <div class="tags"><span class="tag">SQLScript</span><span class="tag">SAP HANA</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+
+    <article class="card">
+      <p class="kind">it governance</p>
+      <h3 lang="es">Control de licencias SAP</h3>
+      <h3 lang="en">SAP license control</h3>
+      <p lang="es">Registro histórico de asignación y reasignación de licencias por tipo, con bitácora de cambios, para sustentar renovaciones y auditorías.</p>
+      <p lang="en">Historical record of license assignment and reassignment by type, with a change log, to support renewals and audits.</p>
+      <div class="tags"><span class="tag">SQL</span><span class="tag">SAP B1</span><span class="tag">Excel</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+
+    <article class="card">
+      <p class="kind">data quality</p>
+      <h3 lang="es">Validaciones en el ERP</h3>
+      <h3 lang="en">ERP validation rules</h3>
+      <p lang="es">Reglas en Transaction Notification que bloquean documentos con datos maestros incompletos antes de que lleguen a contabilidad.</p>
+      <p lang="en">Transaction Notification rules that block documents with incomplete master data before they reach accounting.</p>
+      <div class="tags"><span class="tag">SQLScript</span><span class="tag">SAP B1</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+
+    <article class="card">
+      <p class="kind">operations</p>
+      <h3 lang="es">Informes de servicio del helpdesk</h3>
+      <h3 lang="en">Helpdesk service reporting</h3>
+      <p lang="es">Análisis de volumen, tiempos y recurrencia de tickets desde las exportaciones de osTicket, usado para priorizar mejoras del ERP.</p>
+      <p lang="en">Analysis of ticket volume, response times and recurrence from osTicket exports, used to prioritize ERP improvements.</p>
+      <div class="tags"><span class="tag">osTicket</span><span class="tag">Python</span><span class="tag">Power BI</span></div>
+      <p class="internal" lang="es">interno — detalles de cliente omitidos</p>
+      <p class="internal" lang="en">internal — client details withheld</p>
+    </article>
+  </div>
+</section>
+
+<!-- ====================== 08 CONTACT ====================== -->
+<section class="section shell" id="contact" aria-labelledby="contact-h">
+  <p class="cmd">./contact --send</p>
+  <h2 class="sec-title" id="contact-h"><span class="idx">08.</span> contact</h2>
+
+  <div class="contact-grid">
+    <div>
+      <p lang="es">Disponible para proyectos de SAP Business One, reportería y business intelligence, en modalidad remota o presencial.</p>
+      <p lang="en">Available for SAP Business One, reporting and business intelligence work, remote or on site.</p>
+
+      <!--
+        Con data-demo, "send" abre el cliente de correo del visitante con los
+        datos ya escritos. Para enviarlo desde la propia pagina: cree un
+        formulario gratis en https://formspree.io, ponga su endpoint en el
+        action= y borre data-demo. El JS ya maneja envio, exito y error.
+      -->
+      <form id="contactForm" data-demo action="https://formspree.io/f/TU_ID" method="POST" novalidate>
+        <label for="f-name">--name</label>
+        <input id="f-name" name="name" type="text" required autocomplete="name" placeholder="David Morales">
+
+        <label for="f-email">--email</label>
+        <input id="f-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+
+        <label for="f-msg">--message</label>
+        <textarea id="f-msg" name="message" required placeholder="..."></textarea>
+
+        <!-- Honeypot anti-spam: oculto y fuera del orden de tabulacion -->
+        <input type="text" name="_gotcha" hidden tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button class="send" type="submit" id="sendBtn">$ send</button>
+      </form>
+      <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="contact-side">
+      <a class="cbox" href="mailto:dvmcordova@gmail.com">
+        <b lang="es">correo</b><b lang="en">email</b>
+        <span>dvmcordova@gmail.com</span>
+      </a>
+      <!-- <a class="cbox" href="tel:+50495844507">
+        <b lang="es">teléfono</b><b lang="en">phone</b>
+        <span>+504 9584-4507</span>
+      </a> -->
+      <a class="cbox" href="https://github.com/davidvmc20" rel="noopener">
+        <b>github</b><span>github.com/davidvmc20</span>
+      </a>
+      <a class="cbox" href="#" rel="noopener">
+        <b>linkedin</b><span>David Morales</span>
+      </a>
+      <div class="cbox">
+        <b lang="es">ubicación</b><b lang="en">location</b>
+        <span>San Pedro Sula, HN</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <span>David Vladimir Morales Córdova</span>
+    <span class="sep">·</span>
+    <span>HTML + CSS + JS</span>
+    <span class="sep">·</span>
+    <span>© <span id="year">2026</span></span>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
 </html>

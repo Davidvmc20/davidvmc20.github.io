@@ -1,0 +1,13 @@
+# Documentacion y notas: se quedan en local, no se publican.
+# GitHub Pages sirve todo lo que se commitea, asi que un .md aqui seria
+# visible en davidvmc20.github.io/README.md
+*.md
+*.txt
+
+# ...salvo robots.txt, que el sitio SI necesita servir.
+!robots.txt
+
+# Basura del sistema
+Thumbs.db
+desktop.ini
+.DS_Store

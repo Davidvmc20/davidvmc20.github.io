@@ -1,0 +1,7 @@
+[
+  { "derive": "yearsInIT",         "es": "años en TI",                "en": "years in IT" },
+  { "value": "28",                 "es": "tecnologías en uso",        "en": "technologies in use" },
+  { "value": "1",                  "es": "certificación SAP vigente", "en": "active SAP certification" },
+  { "value": "C1",                 "es": "nivel de inglés",           "en": "English level" },
+  { "value": "2023",               "es": "instructor desde",          "en": "instructor since" }
+]
