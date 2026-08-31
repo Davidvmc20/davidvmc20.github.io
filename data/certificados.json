@@ -1,0 +1,1147 @@
+{
+ "_comment": "Certificados obtenidos. cat = clave del filtro; d = fecha del documento (vacia si el PDF no la trae). Los nombres son el titulo literal de cada diploma y no se traducen.",
+ "categories": [
+  {
+   "key": "sap",
+   "es": "SAP y ERP",
+   "en": "SAP & ERP",
+   "n": 159
+  },
+  {
+   "key": "cloud",
+   "es": "Cloud",
+   "en": "Cloud",
+   "n": 9
+  },
+  {
+   "key": "dev",
+   "es": "Programación",
+   "en": "Programming",
+   "n": 6
+  },
+  {
+   "key": "admin",
+   "es": "Administrativos",
+   "en": "Business skills",
+   "n": 4
+  },
+  {
+   "key": "db",
+   "es": "Base de datos",
+   "en": "Databases",
+   "n": 1
+  },
+  {
+   "key": "sec",
+   "es": "Ciberseguridad",
+   "en": "Cybersecurity",
+   "n": 1
+  },
+  {
+   "key": "ai",
+   "es": "IA",
+   "en": "AI",
+   "n": 1
+  },
+  {
+   "key": "net",
+   "es": "Redes",
+   "en": "Networking",
+   "n": 1
+  }
+ ],
+ "items": [
+  {
+   "n": "SAP Business One - Badge",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2026-06-23"
+  },
+  {
+   "n": "Desarrollo con IA",
+   "cat": "ai",
+   "p": "Otros",
+   "d": "2026-03-13"
+  },
+  {
+   "n": "Habilidades de Comunicación",
+   "cat": "admin",
+   "p": "VIU",
+   "d": "2024-12-16"
+  },
+  {
+   "n": "Transaction Notification",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-20"
+  },
+  {
+   "n": "Actualización de las listas de precios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Caso práctico Determinación de precios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Conceptos de determinación de precios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Crear una lista de precios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Descuento por período y cantidad",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Evalúe sus conocimientos Concepto de determinación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Evalúe sus conocimientos Gestionar descuentos y precios especiales",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Evalúe sus conocimientos Listas de precios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Grupos de descuento",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-14"
+  },
+  {
+   "n": "Abonos de clientes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Automatización del proceso de ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Caso práctico CRM",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Caso práctico Proceso de ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Clientes y grupos de clientes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Del pedido de cliente al cobro",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Descripción general del proceso de ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Devoluciones e intercambios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Automatización del proceso",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos CRM",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Clientes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Proceso de ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Solución de problemas en ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "Gestión de relaciones con los clientes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2024-11-13"
+  },
+  {
+   "n": "10 Power Skills",
+   "cat": "admin",
+   "p": "Otros",
+   "d": "2024-09-27"
+  },
+  {
+   "n": "Caso práctico Lista de materiales en el proceso de ventas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Caso práctico MRP",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Caso práctico Proceso de fabricación con hoja de ruta",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Caso práctico Proceso de producción",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Conceptos del proceso de fabricación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Coste estándar de producción",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Evalúe sus conocimientos Fabricación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Evalúe sus conocimientos MRP",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Gestionar la capacidad de los recursos para la fabricacion",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Lista de materiales",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Proceso de fabricación básico",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Proceso de fabricación con hoja de ruta",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Proceso de planificación de necesidades de materiales",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Simulation (B1) Production Process",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Utilizar recursos en producción",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-08-03"
+  },
+  {
+   "n": "Caso práctico Gestión de almacenes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Caso práctico Gestión de artículos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Caso práctico Inventario permanente",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Estoque Físico",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Gestión de almacenes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Métodos de valoración",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Números de serie y lotes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Movimientos de mercancías",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Números de serie y lotes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Picking Goods in the Production Process",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Picking Goods in the Sales Process",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-07-13"
+  },
+  {
+   "n": "Almacenes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Introduction to Modeling Business Analytics in SAP",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Introduction to Modeling SAP HANA Studio",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Introduction to Modeling Semantic Layer Content",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Model Reuse Views for Master Data Dimensions",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Procedures",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-23"
+  },
+  {
+   "n": "Achat de services",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Bestellanforderungen und Lieferantenanfragen",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Caso práctico Proceso de aprovisionamiento",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Compra de artículos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Devoluciones de mercancías y abonos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Evalúe sus conocimientos Problemas de compra",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Evalúe sus conocimientos Proceso de compras",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Gerenciamento de Despesa de Importação",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Problemas con el pedido de entrada de mercancías",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Proceso de aprovisionamiento",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Simulation (B1) Streamlined Procurement Process",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-20"
+  },
+  {
+   "n": "Alertas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Campos definidos por el usuario",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Caso práctico Procedimientos de aprobación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Caso práctico UDF, UDT y UDV",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Caso práctico Uso de alertas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Consultas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Alertas y procedimientos de autorizacion",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Análisis",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Evalúe sus conocimientos Consultas",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Herramientas de personalizacion",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Introducción a Analytics",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Procesos de aprobación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Tablas definidas por el usuario",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Valores definidos por el usuario",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-13"
+  },
+  {
+   "n": "Asistente de configuración rápida",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Evalúe sus conocimientos Asistente rápido y",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Parametrizaciones clave e irreversibles",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Caso práctico Proyecto de implementación y",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Data Transfer Workbench",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Dienstprogramm für den Datenimport aus Excel",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Ferramentas de Saldo Inicial",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Importación por carga masiva DTW",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Quick Copy",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-06-03"
+  },
+  {
+   "n": "Add-On Licensing",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Add-On Packaging",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Autorizaciones de propiedad de datos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Autorizaciones generales",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Caso práctico Autorizaciones generales y usuarios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Caso práctico Modelos de configuración de la IU",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Caso práctico Numeración de datos maestros y",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Caso práctico Propiedad de datos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Diseños de impresión",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "E-Mail Prefrences",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Evalúe sus conocimientos Cuentas de usuario",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Evalúe sus conocimientos Numeración de datos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Learn more about SAP Business One Extensibility",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Lightweight Deployment Upgrade, Additional Features",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Lightweight Packaging and Deployment",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Modelos de configuración de la IU",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Numeración de datos maestros y documento",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "SAP Community Tools",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "SDK Installation and Support Process",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Service Layer Metadata Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Usuarios y grupos de usuarios",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-24"
+  },
+  {
+   "n": "Data Interface API MetaData Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Data Interface API Services and Special Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Cross Topics Crystal Reports",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Cross Topics User-Defined Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Data Interface API DI Service",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Data Interface API Java Connector",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Development Tools SAP Business One Studio Suite",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Development Tools Workflow",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Service Layer Add-On Creation",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Service Layer Introduction",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "User Interface API Creating Forms",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "User Interface API Other Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "User Interface API Introduction",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-05-23"
+  },
+  {
+   "n": "Gestión de ejecución y reconciliación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Balance Report",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Cartas de reclamación",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Evaluacion Flujo de caja, antigüedad",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Evaluacion Informes financieros",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Flujo de caja",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Informe de antigüedad",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Informes financieros",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-13"
+  },
+  {
+   "n": "Herramientas de soporte y procesos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-03"
+  },
+  {
+   "n": "Resumen de los procesos y herramientas de soporte",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-03-03"
+  },
+  {
+   "n": "SAP Business One - Administracion",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2023-02-14"
+  },
+  {
+   "n": "Additional SAP Business One Components",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-22"
+  },
+  {
+   "n": "Data Interface API Business Objects",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-22"
+  },
+  {
+   "n": "Data Interface API Introduction",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-22"
+  },
+  {
+   "n": "SAP Business One Support Level 1",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-22"
+  },
+  {
+   "n": "SAP Business One Support Level 2",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-22"
+  },
+  {
+   "n": "Proyecto de implementacion",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-12-16"
+  },
+  {
+   "n": "SAP B1 de cero a experto",
+   "cat": "sap",
+   "p": "Udemy",
+   "d": "2022-11-17"
+  },
+  {
+   "n": "SAP Business One SDK",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-07-20"
+  },
+  {
+   "n": "Configuracion de Unidades de medida",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Configurar paquetes",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Datos Maestros de articulo",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Definicion de grupos de articulo",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Evalúe sus conocimientos Unidades de medida",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Evalúe sus conocimientos de Artículos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Unidades de medida",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "uso de Unidades de medida",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Evalúe sus conocimientos de Artículos",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-06-23"
+  },
+  {
+   "n": "Course Overview",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-05-06"
+  },
+  {
+   "n": "SDK Introduction",
+   "cat": "sap",
+   "p": "SAP",
+   "d": "2022-05-06"
+  },
+  {
+   "n": "ICSI CiberSecurity",
+   "cat": "sec",
+   "p": "ICSI",
+   "d": "2022-02-13"
+  },
+  {
+   "n": "NetAcad Learning Transcript",
+   "cat": "net",
+   "p": "Cisco NetAcad",
+   "d": "2022-02-09"
+  },
+  {
+   "n": "ASP.NET Core",
+   "cat": "dev",
+   "p": "Platzi",
+   "d": "2022-02-04"
+  },
+  {
+   "n": "C#",
+   "cat": "dev",
+   "p": "Platzi",
+   "d": "2022-02-04"
+  },
+  {
+   "n": "Datos con PHP",
+   "cat": "dev",
+   "p": "Platzi",
+   "d": "2022-02-04"
+  },
+  {
+   "n": "Git y GitHub",
+   "cat": "dev",
+   "p": "Platzi",
+   "d": "2022-02-04"
+  },
+  {
+   "n": "POO con PHP",
+   "cat": "dev",
+   "p": "Platzi",
+   "d": "2022-02-04"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 9",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-02-02"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 7",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-26"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 8",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-26"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 5",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-25"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 6",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-25"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 1",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-24"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 2",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-24"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 3",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-24"
+  },
+  {
+   "n": "AWS Training & Certification - Certificate of Completion 4",
+   "cat": "cloud",
+   "p": "AWS",
+   "d": "2020-01-24"
+  },
+  {
+   "n": "Desarrollo de Apps Móviles",
+   "cat": "dev",
+   "p": "Google",
+   "d": "2019-08-10"
+  },
+  {
+   "n": "Finanzas",
+   "cat": "admin",
+   "p": "Otros",
+   "d": ""
+  },
+  {
+   "n": "Centros de cómputo",
+   "cat": "admin",
+   "p": "Otros",
+   "d": ""
+  },
+  {
+   "n": "MySQL",
+   "cat": "db",
+   "p": "Otros",
+   "d": ""
+  },
+  {
+   "n": "openSAP — SAP Business One",
+   "cat": "sap",
+   "p": "openSAP",
+   "d": ""
+  },
+  {
+   "n": "SAP Business One Certification Official",
+   "cat": "sap",
+   "p": "SAP",
+   "d": ""
+  },
+  {
+   "n": "SAP Certified — SAP Business One (badge)",
+   "cat": "sap",
+   "p": "SAP",
+   "d": ""
+  },
+  {
+   "n": "SAP Certified — SAP Business One",
+   "cat": "sap",
+   "p": "SAP",
+   "d": ""
+  }
+ ]
+}

@@ -7,6 +7,7 @@ import { initNav } from './nav.js';
 import { initChart } from './charts.js';
 import { initTiles } from './render.js';
 import { initTerminal } from './terminal.js';
+import { initCerts } from './certs.js';
 import { initForm } from './form.js';
 
 /* --- Tema: manual gana sobre la preferencia del sistema ------------------- */
@@ -55,3 +56,4 @@ initTerminal();
 initForm();
 initTiles();
 initChart();
+initCerts();

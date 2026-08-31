@@ -24,11 +24,15 @@
 
   --shell: 860px;
   --gap-sec: 48px;
+
+  /* la UI nativa (barras de scroll, controles) sigue al tema */
+  color-scheme: dark;
 }
 
 /* Modo claro: automatico por preferencia del sistema... */
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
+    color-scheme: light;
     --bg:       #ffffff;
     --bg-elev:  #f6f8fa;
     --border:   #d0d7de;
@@ -45,6 +49,7 @@
 
 /* ...y por eleccion manual, que gana en ambas direcciones. */
 :root[data-theme="light"] {
+  color-scheme: light;
   --bg:       #ffffff;
   --bg-elev:  #f6f8fa;
   --border:   #d0d7de;
@@ -140,6 +145,7 @@ img { max-width: 100%; height: auto; display: block; }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) .topbar { background: rgba(255, 255, 255, .85); }
 }
+:root[data-theme="dark"] { color-scheme: dark; }
 :root[data-theme="light"] .topbar { background: rgba(255, 255, 255, .85); }
 
 .topbar-inner {
@@ -824,4 +830,144 @@ a.cbox:hover span { color: var(--accent); }
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
+}
+
+/* --- 20. Certificados (07) ------------------------------------------------ */
+
+/* La etiqueta del resumen de respaldo va en color normal; el numero, atenuado
+   como en el resto de listas. */
+.prev-list .lbl { color: var(--fg); }
+
+/* Rejilla de categorias: mismo tamano y ritmo que los tiles de learning, pero
+   son botones que abren el modal. */
+.cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.cat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  text-align: left;
+  color: var(--fg);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: border-color .15s, color .15s;
+}
+.cat:hover { border-color: var(--accent); }
+.cat:hover .cat-n { color: var(--accent); }
+.cat-n { color: var(--fg-dim); font-weight: 600; }
+
+/* --- Modal --------------------------------------------------------------- */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #010409cc;
+  backdrop-filter: blur(3px);
+}
+.modal-box {
+  width: 100%;
+  max-width: 560px;
+  max-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 16px;
+  border-bottom: 1px dashed var(--border);
+  background: var(--bg-elev);
+}
+.modal-title {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--accent);
+}
+.modal-body {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px 16px;
+}
+
+/* Barra de scroll a juego con el tema: fina, sin flechas y con el pulgar del
+   mismo gris de los bordes. Firefox usa scrollbar-width/color; el resto, las
+   pseudoclases de WebKit. */
+.modal-body,
+.term-body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.modal-body::-webkit-scrollbar,
+.term-body::-webkit-scrollbar { width: 10px; }
+
+.modal-body::-webkit-scrollbar-track,
+.term-body::-webkit-scrollbar-track { background: transparent; }
+
+.modal-body::-webkit-scrollbar-thumb,
+.term-body::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border: 3px solid transparent;   /* deja aire a los lados del pulgar */
+  border-radius: 6px;
+  background-clip: content-box;
+}
+.modal-body::-webkit-scrollbar-thumb:hover,
+.term-body::-webkit-scrollbar-thumb:hover { background: var(--fg-dim); background-clip: content-box; }
+
+/* las flechas de Windows rompen la linea del panel */
+.modal-body::-webkit-scrollbar-button,
+.term-body::-webkit-scrollbar-button { display: none; }
+.modal-foot {
+  margin: 0;
+  padding: 11px 16px;
+  border-top: 1px dashed var(--border);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--fg-dim);
+}
+
+.cert-item { padding: 11px 0; border-bottom: 1px dashed var(--border); }
+.modal-body .cert-item:last-child { border-bottom: 0; }
+.cert-name {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--fg);
+  line-height: 1.45;
+}
+.cert-meta {
+  margin: 4px 0 0;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--fg-dim);
+}
+
+/* con el modal abierto la pagina de atras no se mueve */
+body.modal-open { overflow: hidden; }
+
+@media (max-width: 620px) {
+  .modal { padding: 12px; align-items: flex-end; }
+  .modal-box { max-height: 85vh; }
 }

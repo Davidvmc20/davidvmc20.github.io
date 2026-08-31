@@ -72,8 +72,9 @@
       <a href="#skills"><span class="n">04.</span>skills</a>
       <a href="#stack"><span class="n">05.</span>stack</a>
       <a href="#learning"><span class="n">06.</span>learning</a>
-      <a href="#projects"><span class="n">07.</span>projects</a>
-      <a href="#contact"><span class="n">08.</span>contact</a>
+      <a href="#certificates"><span class="n">07.</span>certificates</a>
+      <a href="#projects"><span class="n">08.</span>projects</a>
+      <a href="#contact"><span class="n">09.</span>contact</a>
     </nav>
 
     <div class="toolbar">
@@ -386,10 +387,40 @@
   </div>
 </section>
 
-<!-- ====================== 07 PROJECTS ====================== -->
+<!-- ====================== 07 CERTIFICATES ====================== -->
+<section class="section shell" id="certificates" aria-labelledby="certs-h">
+  <p class="cmd" lang="es">ls -1 ~/certificados | wc -l</p>
+  <p class="cmd" lang="en">ls -1 ~/certificates | wc -l</p>
+  <h2 class="sec-title" id="certs-h"><span class="idx">07.</span> certificates</h2>
+
+  <div class="tiles" id="certTiles">
+    <div class="tile"><b>182</b><span lang="es">certificados</span><span lang="en">certificates</span></div>
+    <div class="tile"><b>8</b><span lang="es">categorías</span><span lang="en">categories</span></div>
+    <div class="tile"><b>10</b><span lang="es">emisores</span><span lang="en">issuers</span></div>
+  </div>
+
+  <p class="note" lang="es"># abra una categoría para ver sus certificados</p>
+  <p class="note" lang="en"># open a category to list its certificates</p>
+
+  <!-- Respaldo sin JS: el mismo resumen, sin el modal. -->
+  <ul class="prev-list" id="certsFallback">
+    <li><span class="lbl" lang="es">SAP y ERP</span><span class="lbl" lang="en">SAP &amp; ERP</span> <span>159</span></li>
+    <li><span class="lbl">Cloud</span> <span>9</span></li>
+    <li><span class="lbl" lang="es">Programación</span><span class="lbl" lang="en">Programming</span> <span>6</span></li>
+    <li><span class="lbl" lang="es">Administrativos</span><span class="lbl" lang="en">Business skills</span> <span>4</span></li>
+    <li><span class="lbl" lang="es">Base de datos</span><span class="lbl" lang="en">Databases</span> <span>1</span></li>
+    <li><span class="lbl" lang="es">Ciberseguridad</span><span class="lbl" lang="en">Cybersecurity</span> <span>1</span></li>
+    <li><span class="lbl" lang="es">IA</span><span class="lbl" lang="en">AI</span> <span>1</span></li>
+    <li><span class="lbl" lang="es">Redes</span><span class="lbl" lang="en">Networking</span> <span>1</span></li>
+  </ul>
+
+  <div class="cats" id="certsCats" hidden></div>
+</section>
+
+<!-- ====================== 08 PROJECTS ====================== -->
 <section class="section shell" id="projects" aria-labelledby="proj-h">
   <p class="cmd">ls -la ./projects</p>
-  <h2 class="sec-title" id="proj-h"><span class="idx">07.</span> projects</h2>
+  <h2 class="sec-title" id="proj-h"><span class="idx">08.</span> projects</h2>
 
   <div class="projects">
     <article class="card">
@@ -464,7 +495,7 @@
 <!-- ====================== 08 CONTACT ====================== -->
 <section class="section shell" id="contact" aria-labelledby="contact-h">
   <p class="cmd">./contact --send</p>
-  <h2 class="sec-title" id="contact-h"><span class="idx">08.</span> contact</h2>
+  <h2 class="sec-title" id="contact-h"><span class="idx">09.</span> contact</h2>
 
   <div class="contact-grid">
     <div>
@@ -529,6 +560,23 @@
     <span>© <span id="year">2026</span></span>
   </div>
 </footer>
+
+<!-- ====================== MODAL DE CERTIFICADOS ====================== -->
+<!-- Lo llena certs.js al abrir una categoria. Sin JS no aparece nunca. -->
+<div class="modal" id="certModal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+    <div class="modal-head">
+      <p class="modal-title" id="certModalTitle"></p>
+      <button class="tool" type="button" id="certModalClose"
+              data-aria-es="Cerrar" data-aria-en="Close">✕</button>
+    </div>
+    <div class="modal-body" id="certModalBody"></div>
+    <p class="modal-foot">
+      <span lang="es"># puedo enviar copia de cualquiera de estos a solicitud</span>
+      <span lang="en"># copies of any of these are available on request</span>
+    </p>
+  </div>
+</div>
 
 <script type="module" src="assets/js/main.js"></script>
 </body>
