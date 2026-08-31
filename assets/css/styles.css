@@ -546,8 +546,12 @@ table.sql td:last-child { color: var(--fg-dim); white-space: nowrap; }
     margin-bottom: 9px;
   }
   table.sql td { display: block; padding: 1px 0; border: 0; white-space: normal; }
-  table.sql td::before { content: attr(data-th) ": "; color: var(--fg-dim); }
-  table.sql td:first-child::before { content: ""; }
+  /* la etiqueta de cada celda tambien cambia con el idioma: es un atributo,
+     asi que se elige aqui y no con los spans lang="es"/lang="en" */
+  table.sql td::before { content: attr(data-th-en) ": "; color: var(--fg-dim); }
+  html[data-lang="es"] table.sql td::before { content: attr(data-th-es) ": "; }
+  table.sql td:first-child::before,
+  html[data-lang="es"] table.sql td:first-child::before { content: ""; }
 }
 
 /* --- 11. Skills (JSON) --------------------------------------------------- */
