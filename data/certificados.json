@@ -1,5 +1,5 @@
 {
- "_comment": "Certificados obtenidos. cat = clave del filtro; d = fecha del documento (vacia si el PDF no la trae). Los nombres son el titulo literal de cada diploma y no se traducen.",
+ "_comment": "Certificados obtenidos. cat = clave del filtro; d = fecha del documento (vacia si el PDF no la trae). n = titulo original del diploma; n_en = su traduccion, que se muestra con el sitio en ingles.",
  "categories": [
   {
    "key": "sap",
@@ -59,12 +59,14 @@
   },
   {
    "n": "Desarrollo con IA",
+   "n_en": "Development with AI",
    "cat": "ai",
    "p": "Otros",
    "d": "2026-03-13"
   },
   {
    "n": "Habilidades de Comunicación",
+   "n_en": "Communication Skills",
    "cat": "admin",
    "p": "VIU",
    "d": "2024-12-16"
@@ -77,138 +79,161 @@
   },
   {
    "n": "Actualización de las listas de precios",
+   "n_en": "Updating price lists",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Caso práctico Determinación de precios",
+   "n_en": "Case study: Pricing",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Conceptos de determinación de precios",
+   "n_en": "Pricing concepts",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Crear una lista de precios",
+   "n_en": "Creating a price list",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Descuento por período y cantidad",
+   "n_en": "Period and volume discounts",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Evalúe sus conocimientos Concepto de determinación",
+   "n_en": "Check your knowledge: Pricing concepts",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Evalúe sus conocimientos Gestionar descuentos y precios especiales",
+   "n_en": "Check your knowledge: Managing discounts and special prices",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Evalúe sus conocimientos Listas de precios",
+   "n_en": "Check your knowledge: Price lists",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Grupos de descuento",
+   "n_en": "Discount groups",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-14"
   },
   {
    "n": "Abonos de clientes",
+   "n_en": "Customer credit memos",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Automatización del proceso de ventas",
+   "n_en": "Sales process automation",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Caso práctico CRM",
+   "n_en": "Case study: CRM",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Caso práctico Proceso de ventas",
+   "n_en": "Case study: Sales process",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Clientes y grupos de clientes",
+   "n_en": "Customers and customer groups",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Del pedido de cliente al cobro",
+   "n_en": "From sales order to incoming payment",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Descripción general del proceso de ventas",
+   "n_en": "Sales process overview",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Devoluciones e intercambios",
+   "n_en": "Returns and exchanges",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Evalúe sus conocimientos Automatización del proceso",
+   "n_en": "Check your knowledge: Process automation",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Evalúe sus conocimientos CRM",
+   "n_en": "Check your knowledge: CRM",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Evalúe sus conocimientos Clientes",
+   "n_en": "Check your knowledge: Customers",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Evalúe sus conocimientos Proceso de ventas",
+   "n_en": "Check your knowledge: Sales process",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Evalúe sus conocimientos Solución de problemas en ventas",
+   "n_en": "Check your knowledge: Troubleshooting sales",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
   },
   {
    "n": "Gestión de relaciones con los clientes",
+   "n_en": "Customer relationship management",
    "cat": "sap",
    "p": "SAP",
    "d": "2024-11-13"
@@ -221,78 +246,91 @@
   },
   {
    "n": "Caso práctico Lista de materiales en el proceso de ventas",
+   "n_en": "Case study: Bill of materials in the sales process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Caso práctico MRP",
+   "n_en": "Case study: MRP",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Caso práctico Proceso de fabricación con hoja de ruta",
+   "n_en": "Case study: Production process with routing",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Caso práctico Proceso de producción",
+   "n_en": "Case study: Production process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Conceptos del proceso de fabricación",
+   "n_en": "Manufacturing process concepts",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Coste estándar de producción",
+   "n_en": "Standard production cost",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Evalúe sus conocimientos Fabricación",
+   "n_en": "Check your knowledge: Manufacturing",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Evalúe sus conocimientos MRP",
+   "n_en": "Check your knowledge: MRP",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Gestionar la capacidad de los recursos para la fabricacion",
+   "n_en": "Managing resource capacity for manufacturing",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Lista de materiales",
+   "n_en": "Bill of materials",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Proceso de fabricación básico",
+   "n_en": "Basic manufacturing process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Proceso de fabricación con hoja de ruta",
+   "n_en": "Manufacturing process with routing",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Proceso de planificación de necesidades de materiales",
+   "n_en": "Material requirements planning process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
@@ -305,60 +343,70 @@
   },
   {
    "n": "Utilizar recursos en producción",
+   "n_en": "Using resources in production",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-08-03"
   },
   {
    "n": "Caso práctico Gestión de almacenes",
+   "n_en": "Case study: Warehouse management",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Caso práctico Gestión de artículos",
+   "n_en": "Case study: Item management",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Caso práctico Inventario permanente",
+   "n_en": "Case study: Perpetual inventory",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Estoque Físico",
+   "n_en": "Physical inventory",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Evalúe sus conocimientos Gestión de almacenes",
+   "n_en": "Check your knowledge: Warehouse management",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Evalúe sus conocimientos Métodos de valoración",
+   "n_en": "Check your knowledge: Valuation methods",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Evalúe sus conocimientos Números de serie y lotes",
+   "n_en": "Check your knowledge: Serial numbers and batches",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Movimientos de mercancías",
+   "n_en": "Goods movements",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
   },
   {
    "n": "Números de serie y lotes",
+   "n_en": "Serial numbers and batches",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-07-13"
@@ -377,6 +425,7 @@
   },
   {
    "n": "Almacenes",
+   "n_en": "Warehouses",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-23"
@@ -413,60 +462,70 @@
   },
   {
    "n": "Achat de services",
+   "n_en": "Purchasing services",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Bestellanforderungen und Lieferantenanfragen",
+   "n_en": "Purchase requests and vendor inquiries",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Caso práctico Proceso de aprovisionamiento",
+   "n_en": "Case study: Procurement process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Compra de artículos",
+   "n_en": "Purchasing items",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Devoluciones de mercancías y abonos",
+   "n_en": "Goods returns and credit memos",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Evalúe sus conocimientos Problemas de compra",
+   "n_en": "Check your knowledge: Purchasing issues",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Evalúe sus conocimientos Proceso de compras",
+   "n_en": "Check your knowledge: Purchasing process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Gerenciamento de Despesa de Importação",
+   "n_en": "Import expense management",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Problemas con el pedido de entrada de mercancías",
+   "n_en": "Goods receipt PO issues",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
   },
   {
    "n": "Proceso de aprovisionamiento",
+   "n_en": "Procurement process",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-20"
@@ -479,108 +538,126 @@
   },
   {
    "n": "Alertas",
+   "n_en": "Alerts",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Campos definidos por el usuario",
+   "n_en": "User-defined fields",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Caso práctico Procedimientos de aprobación",
+   "n_en": "Case study: Approval procedures",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Caso práctico UDF, UDT y UDV",
+   "n_en": "Case study: UDF, UDT and UDV",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Caso práctico Uso de alertas",
+   "n_en": "Case study: Using alerts",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Consultas",
+   "n_en": "Queries",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Evalúe sus conocimientos Alertas y procedimientos de autorizacion",
+   "n_en": "Check your knowledge: Alerts and approval procedures",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Evalúe sus conocimientos Análisis",
+   "n_en": "Check your knowledge: Analytics",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Evalúe sus conocimientos Consultas",
+   "n_en": "Check your knowledge: Queries",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Herramientas de personalizacion",
+   "n_en": "Customization tools",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Introducción a Analytics",
+   "n_en": "Introduction to Analytics",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Procesos de aprobación",
+   "n_en": "Approval processes",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Tablas definidas por el usuario",
+   "n_en": "User-defined tables",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Valores definidos por el usuario",
+   "n_en": "User-defined values",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-13"
   },
   {
    "n": "Asistente de configuración rápida",
+   "n_en": "Quick configuration wizard",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
   },
   {
    "n": "Evalúe sus conocimientos Asistente rápido y",
+   "n_en": "Check your knowledge: Quick wizard and",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
   },
   {
    "n": "Parametrizaciones clave e irreversibles",
+   "n_en": "Key and irreversible settings",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
   },
   {
    "n": "Caso práctico Proyecto de implementación y",
+   "n_en": "Case study: Implementation project and",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
@@ -593,18 +670,21 @@
   },
   {
    "n": "Dienstprogramm für den Datenimport aus Excel",
+   "n_en": "Excel data import utility",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
   },
   {
    "n": "Ferramentas de Saldo Inicial",
+   "n_en": "Opening balance tools",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
   },
   {
    "n": "Importación por carga masiva DTW",
+   "n_en": "Mass import with DTW",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-06-03"
@@ -629,42 +709,49 @@
   },
   {
    "n": "Autorizaciones de propiedad de datos",
+   "n_en": "Data ownership authorizations",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Autorizaciones generales",
+   "n_en": "General authorizations",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Caso práctico Autorizaciones generales y usuarios",
+   "n_en": "Case study: General authorizations and users",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Caso práctico Modelos de configuración de la IU",
+   "n_en": "Case study: UI configuration templates",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Caso práctico Numeración de datos maestros y",
+   "n_en": "Case study: Master data numbering and",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Caso práctico Propiedad de datos",
+   "n_en": "Case study: Data ownership",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Diseños de impresión",
+   "n_en": "Print layouts",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
@@ -677,12 +764,14 @@
   },
   {
    "n": "Evalúe sus conocimientos Cuentas de usuario",
+   "n_en": "Check your knowledge: User accounts",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Evalúe sus conocimientos Numeración de datos",
+   "n_en": "Check your knowledge: Data numbering",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
@@ -707,12 +796,14 @@
   },
   {
    "n": "Modelos de configuración de la IU",
+   "n_en": "UI configuration templates",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
   },
   {
    "n": "Numeración de datos maestros y documento",
+   "n_en": "Master data and document numbering",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
@@ -737,6 +828,7 @@
   },
   {
    "n": "Usuarios y grupos de usuarios",
+   "n_en": "Users and user groups",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-05-24"
@@ -821,6 +913,7 @@
   },
   {
    "n": "Gestión de ejecución y reconciliación",
+   "n_en": "Execution and reconciliation management",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
@@ -833,54 +926,63 @@
   },
   {
    "n": "Cartas de reclamación",
+   "n_en": "Dunning letters",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Evaluacion Flujo de caja, antigüedad",
+   "n_en": "Assessment: Cash flow and aging",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Evaluacion Informes financieros",
+   "n_en": "Assessment: Financial reports",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Flujo de caja",
+   "n_en": "Cash flow",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Informe de antigüedad",
+   "n_en": "Aging report",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Informes financieros",
+   "n_en": "Financial reports",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-13"
   },
   {
    "n": "Herramientas de soporte y procesos",
+   "n_en": "Support tools and processes",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-03"
   },
   {
    "n": "Resumen de los procesos y herramientas de soporte",
+   "n_en": "Overview of support processes and tools",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-03-03"
   },
   {
    "n": "SAP Business One - Administracion",
+   "n_en": "SAP Business One - Administration",
    "cat": "sap",
    "p": "SAP",
    "d": "2023-02-14"
@@ -917,12 +1019,14 @@
   },
   {
    "n": "Proyecto de implementacion",
+   "n_en": "Implementation project",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-12-16"
   },
   {
    "n": "SAP B1 de cero a experto",
+   "n_en": "SAP B1 from zero to expert",
    "cat": "sap",
    "p": "Udemy",
    "d": "2022-11-17"
@@ -935,54 +1039,63 @@
   },
   {
    "n": "Configuracion de Unidades de medida",
+   "n_en": "Setting up units of measure",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Configurar paquetes",
+   "n_en": "Setting up packages",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Datos Maestros de articulo",
+   "n_en": "Item master data",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Definicion de grupos de articulo",
+   "n_en": "Defining item groups",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Evalúe sus conocimientos Unidades de medida",
+   "n_en": "Check your knowledge: Units of measure",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Evalúe sus conocimientos de Artículos",
+   "n_en": "Check your knowledge: Items",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Unidades de medida",
+   "n_en": "Units of measure",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "uso de Unidades de medida",
+   "n_en": "Using units of measure",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
   },
   {
    "n": "Evalúe sus conocimientos de Artículos",
+   "n_en": "Check your knowledge: Items",
    "cat": "sap",
    "p": "SAP",
    "d": "2022-06-23"
@@ -1025,18 +1138,21 @@
   },
   {
    "n": "Datos con PHP",
+   "n_en": "Data with PHP",
    "cat": "dev",
    "p": "Platzi",
    "d": "2022-02-04"
   },
   {
    "n": "Git y GitHub",
+   "n_en": "Git and GitHub",
    "cat": "dev",
    "p": "Platzi",
    "d": "2022-02-04"
   },
   {
    "n": "POO con PHP",
+   "n_en": "OOP with PHP",
    "cat": "dev",
    "p": "Platzi",
    "d": "2022-02-04"
@@ -1097,18 +1213,21 @@
   },
   {
    "n": "Desarrollo de Apps Móviles",
+   "n_en": "Mobile App Development",
    "cat": "dev",
    "p": "Google",
    "d": "2019-08-10"
   },
   {
    "n": "Finanzas",
+   "n_en": "Finance",
    "cat": "admin",
    "p": "Otros",
    "d": ""
   },
   {
    "n": "Centros de cómputo",
+   "n_en": "Data centers",
    "cat": "admin",
    "p": "Otros",
    "d": ""

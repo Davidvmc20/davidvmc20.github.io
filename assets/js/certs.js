@@ -3,8 +3,8 @@
    Si el fetch falla se queda el resumen estatico del HTML, igual que hace
    la grafica del stack con su lista de respaldo.
 
-   Los nombres de los certificados son el titulo literal de cada diploma:
-   no se traducen. Lo unico bilingue son las etiquetas de la interfaz. */
+   Cada certificado trae "n" (el titulo con que se emitio) y, cuando aplica,
+   "n_en" con su traduccion. Los que ya venian en ingles no llevan n_en. */
 
 const MESES = {
   es: ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
@@ -25,6 +25,11 @@ function lang() {
 function fecha(d) {
   if (!d) return SIN_FECHA[lang()];
   return `${MESES[lang()][+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
+}
+
+/* El titulo traducido solo existe para los que no venian ya en ingles */
+function nombre(c) {
+  return lang() === 'en' && c.n_en ? c.n_en : c.n;
 }
 
 /* Los dos idiomas dentro del elemento, como el resto del sitio */
@@ -62,7 +67,7 @@ function pintarModal() {
 
     const name = document.createElement('p');
     name.className = 'cert-name';
-    name.textContent = c.n;
+    name.textContent = nombre(c);
 
     const meta = document.createElement('p');
     meta.className = 'cert-meta';
