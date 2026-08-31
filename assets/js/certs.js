@@ -11,8 +11,6 @@ const MESES = {
   en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 };
 
-const SIN_FECHA = { es: 'sin fecha', en: 'undated' };
-
 let items = [];
 let cats = [];
 let abierta = null;          // categoria abierta, para repintar al cambiar idioma
@@ -22,8 +20,9 @@ function lang() {
   return document.documentElement.dataset.lang === 'es' ? 'es' : 'en';
 }
 
+/* 7 certificados no traen fecha en el documento: se muestran sin ella */
 function fecha(d) {
-  if (!d) return SIN_FECHA[lang()];
+  if (!d) return '';
   return `${MESES[lang()][+d.slice(5, 7) - 1]} ${d.slice(0, 4)}`;
 }
 
@@ -71,7 +70,7 @@ function pintarModal() {
 
     const meta = document.createElement('p');
     meta.className = 'cert-meta';
-    meta.textContent = `${c.p} · ${fecha(c.d)}`;
+    meta.textContent = c.d ? `${c.p} · ${fecha(c.d)}` : c.p;
 
     item.append(name, meta);
     return item;
